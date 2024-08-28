@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    font-family: "Russo One", sans-serif;
+}
+
+
+.cuerpo{
+    background-color: rgb(140, 102, 228);
+}
+
+
+.navbar{
+    height: 90px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.imagen-logo{
+    height: 50px;
+    width: 200px;
+}
+
+.nav-link{
+    color: rgb(213, 197, 232) !important;
+}
+
+.imagen-parallax{
+    height: 100%;
+    width: 500px;
+    padding-bottom: 30px;
+}
+
+.parallax-container {
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+.parallax-section {
+    background-image: url('img2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+.parallax-content {
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.parallax-content p {
+    font-size: 1.5rem;
+}
+
+ 
+
+.descripcion{
+    text-align: center;
+    padding: 60px;
+    color: white;
+    background-color: rgb(110, 90, 228);
+    margin-top: 70px;
+    border-radius: 17px;
+    box-shadow: 2px 5px 10px rgb(25, 2, 80);
+}
+
+.personajes{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    background-color: rgb(110, 90, 228);
+    padding-bottom: 60px;
+    margin-top: 70px;
+    border-radius: 17px;
+    box-shadow: 2px 5px 10px rgb(25, 2, 80);
+}
+
+.titulo-personajes{
+    padding-bottom: 50px;
+}
+
+.texto-personajes{
+    padding: 20px 70px 0px 70px;
+}
+
+.imagen-rick,
+.imagen-morty {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 5px 10px rgb(25, 2, 80);
+}
+
+.texto-descripcion{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+footer{
+    margin-top: 90px;
+    background-color: rgb(110, 90, 228);
+}
+
+.contenedor-personaje{
+    background-color: rgb(140, 126, 224);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 17px;
+    box-shadow: 2px 5px 10px rgb(25, 2, 80);
+}
+
+.opcion{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(110, 90, 228);
+    border-radius: 17px;
+    box-shadow: 2px 5px 10px rgb(25, 2, 80);
+}
+
+.texto-opcion{
+    padding-top: 20px;
+    color: white;
+}
+
+.col-lg-6{
+    padding: 20px;
+}
+
+.boton-opcion{
+    margin: 40px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(100, 23, 172);
+    color: white;
+}
+
+.boton-opcion:hover{
+    background-color: rgb(201, 85, 201);
+}
+
+
+.imagen-api{
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+.imagen-buscador{
+    border: solid 5px black;
+    border-radius: 20px;
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.contenedor-api{
+    max-width: 500px !important;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(140, 126, 224);
+    border-radius: 17px;
+    box-shadow: 2px 5px 10px rgb(25, 2, 80);
+}
+
+.contenedor-buscador {
+    background-color: rgb(110, 90, 228);
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 17px;
+    box-shadow: 2px 5px 10px rgb(25, 2, 80);
+    padding-top: 20px;
+    margin-top: 35px;
+    color: white;
+}
+
+.formulario {
+    width: 100%; 
+    max-width: 500px !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(140, 126, 224);
+    padding: 10px;
+    border-radius: 17px;
+    box-shadow: 2px 5px 10px rgb(25, 2, 80);
+    color: white;
+}
+
+.boton-busqueda {
+    width: 100%; 
+    max-width: 160px; 
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(100, 23, 172);
+    color: white;
+    margin-top: 10px; 
+}
+
+.boton-busqueda:hover{
+    background-color: darkviolet;
+    color: white;
+}
